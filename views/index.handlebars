@@ -1,0 +1,17 @@
+<div class="container-fluid text-center bg-cus">
+    <div class="row container mx-auto">
+        <div class="col mt-27"></div>
+        <div class="col text-center mt-27"><a class="btn btn-1 btn-default btn-lg btn-border"
+                href="/login">Einloggen</a>
+        </div>
+        <div class="col text-center mt-27"><a class="btn btn-2 btn-default btn-lg btn-border"
+                href="/register">Registrieren</a>
+        </div>
+        <div class="col mt-27"></div>
+    </div>
+    <p class="muted mt-5">Derzeit registrierte Benutzer: <strong>{{counter}}</strong></p>
+
+</div>
+{{#if session}} <div class="mt-5 mb-3 container text-center"><a class="btn btn-outline-info mx-auto"
+        href="/secret">Visit the Secret</a></div>
+{{/if}}
